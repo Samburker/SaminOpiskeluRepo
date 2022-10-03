@@ -7,6 +7,10 @@ TagManager:
   - Enemy
   - Pelaaja
   - hit
+  - end
+  - friendly
+  - finish
+  - fuel
   layers:
   - Default
   - TransparentFX
