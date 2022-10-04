@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Rocket Game levels/Fly over.unity
+    guid: 18b7529b9af788146872b0f4ab871cf6
+  - enabled: 1
+    path: Assets/Scenes/Rocket Game levels/Under.unity
+    guid: 8c23f080f3e165247a43caeeed9d5eea
   m_configObjects: {}
