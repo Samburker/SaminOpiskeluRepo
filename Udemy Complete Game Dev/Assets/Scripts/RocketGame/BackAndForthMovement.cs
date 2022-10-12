@@ -20,6 +20,7 @@ public class BackAndForthMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (period <= Mathf.Epsilon) { return; } // epsilon on pienin float lähellä nollaa. floatien vertailu suoraan nollaan voi tuottaa ongelmia
         float cycles = Time.time / period; // continually growing over time
         const float tau = Mathf.PI * 2; // constant value of 6.283
         float rawSinWave = Mathf.Sin(cycles * tau); // going from -1 to 1
